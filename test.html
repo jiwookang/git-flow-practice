@@ -96,7 +96,7 @@
   .center.aligned { text-align: center; }
   canvas {
     display: block;
-    background: #59ABE3;
+    background: #333333;
     margin: 0 auto;
   }
   a.key {
@@ -190,8 +190,8 @@
                 this.y = Math.random()*(boundHeight/2) + (boundHeight/4);
                 this.dx = Math.random() > 0.5 ? -1 : 1;
                 this.dy = Math.random() > 0.5 ? -1 : 1;
-                this.rad = 60;
-                this.color = "#fff";
+                this.rad = 600;
+                this.color = "red";
                 this.speed = 2;
                 
                 this.set = function(newX, newY){
