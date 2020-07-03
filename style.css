@@ -1,0 +1,48 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first{
+    margin-top: 70px;
+    color: purple;
+    text-shadow: 5px 5px 5px violet;
+    text-align: center;
+}
+
+body{
+    margin: 0 auto;
+    width: 960px;
+    background-color: whitesmoke;
+    color: purple;
+}
+
+.text{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    float: left;
+}
+.left_bar{
+    background: rgb(212, 187, 212);
+    position:fixed;
+    left:0; top:50px; bottom: 50px;
+    width: 50px;
+}
+.right_bar{
+    background: rgb(212, 187, 212);
+    position: fixed;
+    right:0; top:50px; bottom:50px;
+    width:50px;
+}
+.bottom_bar{
+    background: rgb(212, 187, 212);
+    position: fixed;
+    left:0; right:0; bottom: 0;
+    height: 50px;
+}
+.top_bar{
+    background: rgb(212, 187, 212);
+    position: fixed;
+    left:0; right:0; top: 0;
+    height: 50px;
+}
