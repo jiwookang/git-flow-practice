@@ -96,7 +96,7 @@
   .center.aligned { text-align: center; }
   canvas {
     display: block;
-    background: #59ABE3;
+    background: #333333;
     margin: 0 auto;
   }
   a.key {
@@ -135,7 +135,11 @@
         <div id="main" onClick="showHide();">
             클릭하세요. (내 페이지 보기)
             <div id="showHide">
-                <a href="mypage.html"> 박유진의 자기소개 페이지입니다! </a> html
+
+                <a href="mypage.html"> 박유진의 자기소개 페이지입니다! </a>
+                <a href="yanwhocodes/index.html">양나원 자기소개 페이지</a>
+                <a href="my.html">강지우 자기소개 페이지</a> 
+
             </div>
         </div>
 
@@ -190,8 +194,8 @@
                 this.y = Math.random()*(boundHeight/2) + (boundHeight/4);
                 this.dx = Math.random() > 0.5 ? -1 : 1;
                 this.dy = Math.random() > 0.5 ? -1 : 1;
-                this.rad = 10;
-                this.color = "#fff";
+                this.rad = 600;
+                this.color = "red";
                 this.speed = 2;
                 
                 this.set = function(newX, newY){
